@@ -1,0 +1,162 @@
+@media (min-width: 35em) {
+  .footer-wrapper {
+    padding-block: 5.6rem;
+    line-height: 2.7rem;
+    background-color: #282c4f;
+    color: white;
+    position: relative;
+    .about-box {
+      a {
+        background-color: danger();
+        padding-inline: 1.6rem;
+        padding-block: 0.8rem;
+        display: block;
+        width: max-content;
+        margin-top: 2.4rem;
+      }
+    }
+
+    .fa {
+      width: 3rem;
+      height: 3rem;
+      border: solid 0.1rem warning();
+      border-radius: 50%;
+      padding: 0.3em;
+      color: warning();
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    h4 {
+      font-weight: bold;
+
+      margin-bottom: 2.4rem;
+    }
+    a {
+      color: #efefef;
+    }
+    p {
+      color: #efefef;
+    }
+
+    ul {
+      li {
+        position: relative;
+        a {
+          padding-left: 2em;
+        }
+        a::before {
+          content: '^';
+          position: absolute;
+          transform: rotate(90deg);
+          font-size: 1.6rem;
+          top: 9%;
+          left: 0;
+        }
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    gap: 3.2rem;
+    padding-inline: 5.6rem;
+    padding-block: 2.4rem;
+    & > div {
+      flex: 10rem 1 1;
+      &:nth-of-type(1) {
+        text-align: left;
+      }
+      &:nth-of-type(2) {
+        text-align: right;
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+@media (max-width: 35em) {
+    .footer-wrapper {
+      padding: 1.6rem;
+      line-height: 2.7rem;
+      background-color: #282c4f;
+      color: white;
+      position: relative;
+      .about-box {
+        a {
+          background-color: danger();
+          padding-inline: 1.6rem;
+          padding-block: 0.8rem;
+          display: block;
+          width: max-content;
+          margin-top: 2.4rem;
+        }
+      }
+
+
+ 
+
+  
+      .fa {
+        width: 3rem;
+        height: 3rem;
+        border: solid 0.1rem warning();
+        border-radius: 50%;
+        padding: 0.3em;
+        color: warning();
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+  
+      h4 {
+        font-weight: bold;
+  
+        margin-bottom: 2.4rem;
+      }
+      a {
+        color: #efefef;
+      }
+      p {
+        color: #efefef;
+      }
+  
+      ul {
+        li {
+          position: relative;
+          a {
+            padding-left: 2em;
+          }
+          a::before {
+            content: '^';
+            position: absolute;
+            transform: rotate(90deg);
+            font-size: 1.6rem;
+            top: 9%;
+            left: 0;
+          }
+        }
+      }
+    }
+  
+    footer {
+      display: flex;
+      gap: 3.2rem;
+      padding: 1.6rem;
+      padding-block: 2.4rem;
+      & > div {
+        flex: 10rem 1 1;
+  
+        &:nth-of-type(2) {
+          text-align: right;
+        }
+      }
+    }
+  }
+  

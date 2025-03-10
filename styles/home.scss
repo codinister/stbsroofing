@@ -1,0 +1,38 @@
+.sectionone{
+    padding-block: 5.6rem;
+    background-color: #f5f5f5;
+}
+
+.sectiontwo{
+    padding-block: 5.6rem;
+    background-color: white;
+}
+
+.sectionthree{
+    padding-block: 5.6rem;
+    background-color: #384858;
+}
+
+.slideshow{
+    position: relative;
+}
+
+
+@media(max-width: 35em){
+    .mob-container{
+        div{
+            margin-bottom: 3em;
+        }
+    }
+}
+
+@media(min-width: 35em){
+    .homerequestform{
+        .requestquote{
+            height: 100%;
+        }
+    } 
+
+}
+      
+

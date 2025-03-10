@@ -1,0 +1,222 @@
+
+
+@media(min-width: 35em){
+    .description{
+        display: flex;
+        gap: 1rem;
+        font-size: 1.6rem;
+        color: muted();
+        background-color: white;
+        padding: 1.4em;
+        h4{
+            font-size: 1.8rem;
+        }
+        div{
+            flex: 2rem 1 1;
+        }
+        a{
+            display: block;
+            background-color: danger();
+            color: white;
+            border-radius: 3rem;
+            width: 10rem;
+            text-align: center;
+            padding: .5em;
+            margin-top: 1em;
+        }
+    }
+    
+    
+    .freeestimate{
+        position: relative;
+        width: 100%;
+        height: 30rem;
+        color: white!important;
+        &::before{
+            content: '';
+            width: 100%;
+            height: 30rem;
+            background-color: muted(.8);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    
+        a{
+            display: block;
+            background-color: danger();
+            color: white;
+            border-radius: 3rem;
+            width: 10rem;
+            text-align: center;
+            padding: .5em;
+            margin-top: 1em;
+            font-size: 1.4rem;
+        }
+    
+        .col-5{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 30rem;
+        }
+    
+       .col-2{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 30rem;
+        }
+        .para{
+            font-size: 1.6rem;
+        }
+    
+    }
+    
+    
+    .productone{
+        padding-block: 3em;
+        position: relative;
+        .prodimg{
+            height: 35rem;
+        }
+        .prodBx{
+            width: 23rem;
+            height: 30rem;
+            background-color: white;
+            position: absolute;
+            left: 57%;
+            top: 17%;
+            box-shadow: 1rem 1rem 1rem muted(.1);
+            padding: 1.2em;
+            h4{
+                font-size: 1.6rem;
+                text-align: center;
+                border-bottom: solid muted() .1rem;
+                margin-bottom: 1.5em;
+                padding-bottom: .3em;
+            }
+            div{
+                font-size: 1.2rem;
+            }
+            a{
+                display: block;
+                background-color: danger();
+                color: white;
+                border-radius: 3rem;
+                width: 10rem;
+                text-align: center;
+                padding: .5em;
+                margin-top: 1em;
+                font-size: 1.2rem;
+            }
+        }
+    
+    }
+}
+
+
+
+@media(max-width: 35em){
+    .description{
+width: 100%;
+        font-size: 1.2rem;
+        color: muted();
+        background-color: white;
+        padding: 1.4em;
+        h4{
+            font-size: 1.6rem;
+        }
+        div{
+            flex: 2rem 1 1;
+        }
+        a{
+            display: block;
+            background-color: danger();
+            color: white;
+            border-radius: 3rem;
+            width: 10rem;
+            text-align: center;
+            padding: .5em;
+            margin-top: 1em;
+            margin-bottom: 3em;
+        }
+    }
+    
+    
+    .freeestimate{
+        position: relative;
+        width: 100%;
+        height: 37rem;
+        color: white!important;
+        &::before{
+            content: '';
+            width: 100%;
+            height: 37rem;
+            background-color: muted(.8);
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: -1;
+        }
+    
+        a{
+            display: block;
+            background-color: danger();
+            color: white;
+            border-radius: 3rem;
+            width: 10rem;
+            text-align: center;
+            padding: .5em;
+            margin-top: 1em;
+            margin-left: 3em;
+            font-size: 1.2rem;
+        }
+    
+        .col-5{
+        padding: 3em;
+        }
+    
+
+        .para{
+            font-size: 1.2rem;
+        }
+    
+    }
+    
+    
+    .productone{
+        padding-block: 3em;
+        position: relative;
+        .prodimg{
+            height: 35rem;
+            margin: 1em;
+        }
+        .prodBx{
+            padding: 2em;
+            h4{
+                font-size: 1.6rem;
+                text-align: center;
+                border-bottom: solid muted() .1rem;
+                margin-bottom: 1.5em;
+                padding-bottom: .3em;
+            }
+            div{
+                font-size: 1.2rem;
+            }
+            a{
+                display: block;
+                background-color: danger();
+                color: white;
+                border-radius: 3rem;
+                width: 10rem;
+                text-align: center;
+                padding: .5em;
+                margin-top: 1em;
+                font-size: 1.2rem;
+            }
+        }
+    
+    }
+}

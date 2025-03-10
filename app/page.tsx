@@ -1,95 +1,117 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+'use client'
 
-export default function Home() {
+import type { NextPage } from 'next';
+import Slider from '@madzadev/image-slider';
+import '@madzadev/image-slider/dist/index.css';
+import Sectiontitle from '@/components/Sectiontitle';
+import Articlebox from '@/components/Articlebox';
+import Quote from '@/components/Quote';
+import Requestquote from '@/components/Requestquote';
+import Image from 'next/image';
+import Headertitle from '@/components/Headertitle';
+
+const Home: NextPage = () => {
+  const wid = `100vw`;
+  const hegt = `100vh`;
+
+  const images = [
+    { url: '/slider1.jpg' },
+    { url: '/slider2.jpg' },
+    { url: '/slider3.jpg' },
+  ];
+
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.tsx</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
+    <>
+      <div className="slideshow">
+        <Slider
+          imageList={images}
+          width={wid}
+          height={hegt}
+          loop={true}
+          autoPlay={true}
+          autoPlayInterval={7000}
+          showArrowControls={false}
+          showDotControls={false}
         />
+        <Headertitle />
       </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+      <section className="sectionone">
+        <div className="container">
+          <Sectiontitle
+            mainheading="Accurate Record Keeping"
+            subheading="Why Choose Us"
+          />
+        </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
+        <div className="container mob-container">
+          <div>
+            <Articlebox
+              icon="fa fa-clock-o"
+              heading="Always on time"
+              paragraph="We are always on time no matter the location of your site"
+            />
+          </div>
+          <div>
+            <Articlebox
+              icon="fa fa-check"
+              heading="Hard Working"
+              paragraph="We always put in our very best to make sure you are satisfied."
+            />
+          </div>
+          <div>
+            <Articlebox
+              icon="fa fa-calendar"
+              heading="24/7 Availability"
+              paragraph="We have a state of the art customer service that is always and readily available to help"
+            />
+          </div>
+        </div>
+      </section>
 
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
 
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+
+
+
+
+      <section className="sectiontwo">
+        <div className="container">
+          <Sectiontitle
+            mainheading="What Our Clients Say?"
+            subheading="Testimonials"
+          />
+        </div>
+
+        <div className="container mob-container">
+          <div>
+            <Quote
+              text="What I really like about Smart Roofing Systems is I didn’t have to be present before estimates would be carried out and guess what I paid nothing. It was all done for free. They have excellent customer service and support. I am very glad I contacted them."
+              name="Mrs. Theresa Tetteh"
+            />
+          </div>
+          <div>
+            <Quote
+              text="I was sceptical when I was introduced to Smart Roofing Systems especially when I had to contact them electronically. I got the shock of my life. They replied swiftly in just a matter of minutes. I received my quotation. They are what they say they are."
+              name="Mr. Ofori Atta"
+            />
+          </div>
+          <div>
+            <Quote
+              text="What I really like about Smart Roofing Systems is I didn’t have to be present before estimates would be carried out and guess what I paid nothing. It was all done for free. They have excellent customer service and support. I am very glad I contacted them."
+              name="Dr. Douglas Sarpong"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section className="sectionthree">
+        <div className="container">
+      
+     
+        </div>
+      </section>
+    </>
   );
-}
+};
+
+export default Home;
