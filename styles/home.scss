@@ -8,6 +8,8 @@
   background-color: white;
 }
 
+
+@media(min-width: 35em){
 .sectionthree {
   padding-block: 5.6rem;
   background-color: grey();
@@ -16,14 +18,45 @@
         background-color: white;
         border-radius: 2.4rem;
         height: 60rem;
-        padding: 2.4rem;
+        padding-inline: 2.4rem;
+        padding-block: 5.6rem;
+        text-align: center;
+        a{
+            display: block;
+            width: max-content;
+            padding-inline: 1.6rem; 
+            padding-block: .8rem;
+            color: white;
+            background-color: danger();
+        }
+        p{
+            text-align: left;
+        }
+        h1{
+            font-size: 5.6rem;
+            margin-bottom: 2.4rem;
+        }
+        svg {
+            color: danger();
+            margin-bottom: 2.4rem;
+            font-size: 5.6rem;
+          }
+    }
+    & > div:nth-of-type(1){
+        background-color: grey();
+        text-align: left;
+ 
     }
     & > div:nth-of-type(3){
         background-color: #d53a1b;
         border-radius: 2.4rem;
         color: white;
+        svg{
+            color: white;
+        }
     }
   }
+}
 }
 
 .slideshow {
@@ -31,17 +64,54 @@
 }
 
 @media (max-width: 35em) {
-  .mob-container {
-    div {
-      margin-bottom: 3em;
-    }
-  }
+    .sectionthree {
+        padding: 1.6rem;
+        background-color: grey();
+        & > div{
+          & > div{
+              background-color: white;
+              border-radius: 2.4rem;
+              height: auto;
+              margin-bottom: 2.4rem;
+              padding-inline: 2.4rem;
+              padding-block: 5.6rem;
+              text-align: center;
+              a{
+                  display: block;
+                  width: max-content;
+                  padding-inline: 1.6rem; 
+                  padding-block: .8rem;
+                  color: white;
+                  background-color: danger();
+              }
+              p{
+                  text-align: left;
+              }
+              h1{
+                  font-size: 5.6rem;
+                  margin-bottom: 2.4rem;
+              }
+              svg {
+                  color: danger();
+                  margin-bottom: 2.4rem;
+                  font-size: 5.6rem;
+                }
+          }
+          & > div:nth-of-type(1){
+              background-color: grey();
+              text-align: left;
+       
+          }
+          & > div:nth-of-type(3){
+              background-color: #d53a1b;
+              border-radius: 2.4rem;
+              color: white;
+              svg{
+                  color: white;
+              }
+          }
+        }
+      }
 }
 
-@media (min-width: 35em) {
-  .homerequestform {
-    .requestquote {
-      height: 100%;
-    }
-  }
-}
+

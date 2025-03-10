@@ -1,5 +1,11 @@
 import Link from 'next/link';
 import ScrollToTop from 'react-scroll-to-top';
+import { SiFacebook } from "react-icons/si";
+import { SiInstagram } from "react-icons/si";
+import { GrLinkedin } from "react-icons/gr";
+import { BsTwitterX } from "react-icons/bs";
+
+
 
 const Footer = () => {
   return (
@@ -86,19 +92,22 @@ const Footer = () => {
               Connect with us and interact with our elite team. Together, we
               roof your building with style and give it a definitive touch.
             </p>
+           
+
+
 
             <div className="flex gap-2">
               <a href="https://web.facebook.com/sroofing22">
-                <i className="fa fa-facebook"></i>
+                 <SiFacebook />
               </a>
               <a href="https://www.instagram.com/smartroofingghana/">
-                <i className="fa fa-instagram"></i>
+              <SiInstagram />
               </a>
               <a href="https://www.twitter.com">
-                <i className="fa fa-twitter"></i>
+              <BsTwitterX />
               </a>
               <a href="https://www.linkedin.com/in/smart-roofing-systems-66a61b241/">
-                <i className="fa fa-linkedin"></i>
+              <GrLinkedin />
               </a>
             </div>
           </div>

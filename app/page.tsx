@@ -10,11 +10,13 @@ import Requestquote from '@/components/Requestquote';
 import Image from 'next/image';
 import Headertitle from '@/components/Headertitle';
 import Link from 'next/link';
-import { FaRegClock } from "react-icons/fa";
-import { FaCheckCircle } from "react-icons/fa";
-import { FaRegCalendarAlt } from "react-icons/fa";
-
-
+import { FaRegClock } from 'react-icons/fa';
+import { FaCheckCircle } from 'react-icons/fa';
+import { FaRegCalendarAlt } from 'react-icons/fa';
+import { FiAward } from 'react-icons/fi';
+import { GrProjects } from 'react-icons/gr';
+import { AiOutlineBranches } from 'react-icons/ai';
+import { TbUsersGroup } from 'react-icons/tb';
 
 const Home: NextPage = () => {
   const wid = `100vw`;
@@ -54,7 +56,6 @@ const Home: NextPage = () => {
           <div>
             <Articlebox
               icon={<FaRegClock />}
-
               heading="Always on time"
               paragraph="We are always on time no matter the location of your site"
             />
@@ -109,21 +110,34 @@ const Home: NextPage = () => {
       <section className="sectionthree">
         <div className="container">
           <div>
-            <h2>Our Advantage</h2>
+            <FiAward />
+            <h3>Our Advantage</h3>
 
             <p>
-              Smart Roofing stands as a beacon of quality and
-              expertise in the roofing sheet manufacturing industry. With a rich
-              history spanning over 20 years, we take pride in being a leading
-              provider of high-quality roofing solutions for both commercial and
-              residential purposes in Ghana.
+              Smart Roofing stands as a beacon of quality and expertise in the
+              roofing sheet manufacturing industry. With a rich history spanning
+              over 20 years, we take pride in being a leading provider of
+              high-quality roofing solutions for both commercial and residential
+              purposes in Ghana.
             </p>
 
-            <Link href="">Contact Now</Link>
+            <Link href="/contact">Contact Now</Link>
           </div>
-          <div></div>
-          <div></div>
-          <div></div>
+          <div>
+            <GrProjects />
+            <h1>2000+</h1>
+            <h5>Projects completed</h5>
+          </div>
+          <div>
+            <AiOutlineBranches />
+            <h1>10+</h1>
+            <h5>Branches in Ghana</h5>
+          </div>
+          <div>
+            <TbUsersGroup />
+            <h1>1500+</h1>
+            <h5>Construction worker</h5>
+          </div>
         </div>
       </section>
     </>
