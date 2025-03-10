@@ -41,7 +41,7 @@ const Nav = () => {
       <div className={`container ${show ? 'show' : 'hide'}`}>
         <div>
           <Link onClick={() => setShow(false)} href="/">
-            <Image width="200" height="90" src="/logo.jpg" alt="" />
+            <Image width="200" height="90" src="/logo.JPG" alt="" />
           </Link>
         </div>
         <div>
