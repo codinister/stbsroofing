@@ -1,12 +1,12 @@
 type box = {
-  icon: string;
+  icon: React.ReactNode;
   heading: string;
   paragraph: string;
 };
 const Articlebox = ({ icon, heading, paragraph }: box) => {
   const output = (
     <div className="articlebox">
-      <i className={icon}></i>
+      {icon}
       <h4>{heading}</h4>
       <div>{paragraph}</div>
     </div>

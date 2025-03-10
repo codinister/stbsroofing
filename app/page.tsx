@@ -1,4 +1,4 @@
-'use client'
+'use client';
 
 import type { NextPage } from 'next';
 import Slider from '@madzadev/image-slider';
@@ -9,6 +9,12 @@ import Quote from '@/components/Quote';
 import Requestquote from '@/components/Requestquote';
 import Image from 'next/image';
 import Headertitle from '@/components/Headertitle';
+import Link from 'next/link';
+import { FaRegClock } from "react-icons/fa";
+import { FaCheckCircle } from "react-icons/fa";
+import { FaRegCalendarAlt } from "react-icons/fa";
+
+
 
 const Home: NextPage = () => {
   const wid = `100vw`;
@@ -47,32 +53,28 @@ const Home: NextPage = () => {
         <div className="container mob-container">
           <div>
             <Articlebox
-              icon="fa fa-clock-o"
+              icon={<FaRegClock />}
+
               heading="Always on time"
               paragraph="We are always on time no matter the location of your site"
             />
           </div>
           <div>
             <Articlebox
-              icon="fa fa-check"
+              icon={<FaCheckCircle />}
               heading="Hard Working"
               paragraph="We always put in our very best to make sure you are satisfied."
             />
           </div>
           <div>
             <Articlebox
-              icon="fa fa-calendar"
+              icon={<FaRegCalendarAlt />}
               heading="24/7 Availability"
               paragraph="We have a state of the art customer service that is always and readily available to help"
             />
           </div>
         </div>
       </section>
-
-
-
-
-
 
       <section className="sectiontwo">
         <div className="container">
@@ -106,8 +108,22 @@ const Home: NextPage = () => {
 
       <section className="sectionthree">
         <div className="container">
-      
-     
+          <div>
+            <h2>Our Advantage</h2>
+
+            <p>
+              Smart Roofing stands as a beacon of quality and
+              expertise in the roofing sheet manufacturing industry. With a rich
+              history spanning over 20 years, we take pride in being a leading
+              provider of high-quality roofing solutions for both commercial and
+              residential purposes in Ghana.
+            </p>
+
+            <Link href="">Contact Now</Link>
+          </div>
+          <div></div>
+          <div></div>
+          <div></div>
         </div>
       </section>
     </>
