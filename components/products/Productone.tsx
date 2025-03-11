@@ -10,30 +10,25 @@ const Productone = ({ img, details }: Det) => {
   return (
     <section className="productone">
       <div className="container">
-        <div className="col-5">
-          <div className="prodimg"></div>
+        <div>
+          <div
+            className="prodimg"
+            style={{
+              backgroundImage: `url('/${img}')`,
+              backgroundSize: 'cover',
+              backgroundPosition: 'center',
+            }}
+          ></div>
         </div>
-        <div className="col-2">
+
+        <div>
           <div className="prodBx">
             <h4>Advantages</h4>
             <div>{details}</div>
-
-            <Link href="/contact">
-              Get Quote
-            </Link>
+            <Link href="/contact">Get Quote</Link>
           </div>
         </div>
       </div>
-
-      <style jsx>
-        {`
-          .prodimg {
-            background-image: url('/${img}');
-            background-size: cover;
-            background-position: center;
-          }
-        `}
-      </style>
     </section>
   );
 };

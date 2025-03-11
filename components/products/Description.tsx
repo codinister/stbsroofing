@@ -9,10 +9,11 @@ type Desc = {
 
 const Description = ({ title, text, img }: Desc) => {
   const wid = `100%`;
-  const hegt = `30rem`;
+  const hegt = `38rem`;
 
   return (
     <div className="description">
+
       <div>
         <h4>{title}</h4>
         <div>{text}</div>

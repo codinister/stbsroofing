@@ -4,6 +4,7 @@ import { SiFacebook } from "react-icons/si";
 import { SiInstagram } from "react-icons/si";
 import { GrLinkedin } from "react-icons/gr";
 import { BsTwitterX } from "react-icons/bs";
+import { RiWhatsappFill } from "react-icons/ri";
 
 
 
@@ -119,7 +120,7 @@ const Footer = () => {
           className="whatsappbtn"
           href="http://wa.me/233548123221?text=Hello%2C%20I%20want%20to%20make%20inquiries%20about%20your%20roofing%20sheets"
         >
-          <i className="fa fa-whatsapp"></i>
+          <RiWhatsappFill />
         </a>
       </section>
       <footer>

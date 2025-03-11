@@ -1,20 +1,39 @@
-.quote{
-    .fa-quote-left{
-        font-size: 3rem;
-        color: danger();
+@media (min-width: 35em) {
+  .quote {
+    .fa-quote-left {
+      font-size: 3rem;
+      color: danger();
     }
 
     padding: 2.4rem;
     color: muted();
-    article{
-        margin-block: 1em;
+    article {
+      margin-block: 1em;
     }
-    box-shadow: 0 0 .5rem .2rem muted(.2);
+    box-shadow: 0 0 0.5rem 0.2rem muted(0.2);
     border-radius: 2rem;
+  }
 }
 
 
 
 
+@media (max-width: 35em) {
+    .quote {
+      .fa-quote-left {
+        font-size: 3rem;
+        color: danger();
+      }
 
-
+      margin-bottom: 2.4rem;
+  
+      padding: 2.4rem;
+      color: muted();
+      article {
+        margin-block: 1em;
+      }
+      box-shadow: 0 0 0.5rem 0.2rem muted(0.2);
+      border-radius: 2rem;
+    }
+  }
+  

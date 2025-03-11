@@ -32,14 +32,15 @@
   
   .banner-wrapper {
     position: relative;
-    height: 40rem;
+    height: 43rem;
+    padding: 1.6rem;
   }
 
   .bannertitle {
     background-color: rgba(0, 0, 0, 0.5);
     position: absolute;
     inset: 0;
-    padding: 1.6rem;
+   
     display: flex;
     justify-content: center;
     align-items: center;

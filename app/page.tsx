@@ -6,8 +6,6 @@ import '@madzadev/image-slider/dist/index.css';
 import Sectiontitle from '@/components/Sectiontitle';
 import Articlebox from '@/components/Articlebox';
 import Quote from '@/components/Quote';
-import Requestquote from '@/components/Requestquote';
-import Image from 'next/image';
 import Headertitle from '@/components/Headertitle';
 import Link from 'next/link';
 import { FaRegClock } from 'react-icons/fa';
