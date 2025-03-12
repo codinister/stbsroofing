@@ -44,7 +44,7 @@ const Steptiles = () => {
 
       <Freeestimate />
 
-      <section className="sectionone">
+      <section className="sectionunique">
         <Description
           title="GENERAL DESCRIPTION"
           img={images}
