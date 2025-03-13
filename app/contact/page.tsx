@@ -6,11 +6,11 @@ import Bannertitle from '@/components/Bannertitle';
 import Contactdetails from '@/components/Contactdetails';
 import Requestquote from '@/components/Requestquote';
 import Banner from '@/components/Banner';
-
 import { GrPhone } from "react-icons/gr";
 import { FaRegEnvelope } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
-import { CiGps } from "react-icons/ci";
+import { BsWhatsapp } from "react-icons/bs";
+
 
 
 
@@ -35,13 +35,13 @@ const Contact = () => {
 
             <div className="contact-flex">
               <Contactdetails
-                icons="fa fa-phone"
+                icons={<GrPhone />}
                 heading="Contact Numbers​"
                 details={contactnumbers}
               />
 
               <Contactdetails
-                icons="fa fa-envelope"
+                icons={<FaRegEnvelope />}
                 heading="Email"
                 details="smarttotalstbs@gmail.com"
               />
@@ -49,7 +49,7 @@ const Contact = () => {
 
             <div className="contact-flex">
               <Contactdetails
-                icons="fa fa-map-marker"
+                icons={<FaMapMarkerAlt />}
                 heading="Accra"
                 details="Achimota - Post Office Near Achimota Market"
               />
@@ -57,15 +57,11 @@ const Contact = () => {
 
             <div className="contact-flex">
               <Contactdetails
-                icons="fa fa-whatsapp"
+                icons={<BsWhatsapp />}
                 heading="Whatsapp"
                 details="+233 598775968"
               />
-              <Contactdetails
-                icons="fa fa-map-marker"
-                heading="GPS Code:"
-                details="GE-229-7967"
-              />
+
             </div>
           </div>
 

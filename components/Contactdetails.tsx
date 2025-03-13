@@ -1,23 +1,19 @@
 type Headings = {
-  icons: string
-  heading: string
-  details: string
-}
+  icons: React.ReactNode;
+  heading: string;
+  details: string;
+};
 
-const Contactdetails = ( {icons,heading,details}: Headings ) => {
-
+const Contactdetails = ({ icons, heading, details }: Headings) => {
   return (
     <div className="contactdetails">
-    <i className={icons}></i>
-    <div>
-      <h4>{heading}</h4>
+      {icons}
       <div>
-        {details}
+        <h4>{heading}</h4>
+        <div>{details}</div>
       </div>
     </div>
-    </div>
-  )
+  );
+};
 
-}
-
-export default Contactdetails
+export default Contactdetails;
