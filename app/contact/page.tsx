@@ -7,10 +7,16 @@ import Contactdetails from '@/components/Contactdetails';
 import Requestquote from '@/components/Requestquote';
 import Banner from '@/components/Banner';
 
+import { GrPhone } from "react-icons/gr";
+import { FaRegEnvelope } from "react-icons/fa";
+import { FaMapMarkerAlt } from "react-icons/fa";
+import { CiGps } from "react-icons/ci";
+
+
+
 const Contact = () => {
   const contactnumbers = `
-  (+233) 0548123221\n\r
-  (+233) 0206603011
+  (+233) 0597 902 549
   `;
   return (
     <>
@@ -37,7 +43,7 @@ const Contact = () => {
               <Contactdetails
                 icons="fa fa-envelope"
                 heading="Email"
-                details="info@sroofingsystems.com"
+                details="smarttotalstbs@gmail.com"
               />
             </div>
 
@@ -45,12 +51,7 @@ const Contact = () => {
               <Contactdetails
                 icons="fa fa-map-marker"
                 heading="Accra"
-                details="Musuku – Kwabenya off Ashongman Estate Road"
-              />
-              <Contactdetails
-                icons="fa fa-map-marker"
-                heading="Kumasi"
-                details="Sokoban"
+                details="Achimota - Post Office Near Achimota Market"
               />
             </div>
 
