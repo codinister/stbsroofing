@@ -50,8 +50,8 @@ const Contact = () => {
             <div className="contact-flex">
               <Contactdetails
                 icons={<FaMapMarkerAlt />}
-                heading="Accra"
-                details="Achimota - Post Office Near Achimota Market"
+                heading="Akyem Nsutam"
+                details="Near Paradise Resort"
               />
             </div>
 
