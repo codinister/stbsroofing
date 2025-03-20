@@ -44,7 +44,7 @@ const Trusses = () => {
         <Description
           title="GENERAL DESCRIPTION"
           img={images}
-          text="Smart Roofing Steel Trusses is a hot dipped galvanized structural grade steel developed specifically to maximize the efficiency of of cold formed construction projects.
+          text="Yaks Roofing Steel Trusses is a hot dipped galvanized structural grade steel developed specifically to maximize the efficiency of of cold formed construction projects.
         Westcoast Steel Trusses provides the highest yield strength to maximize the total steel requirement in each of your engineered structures."
         />
       </section>

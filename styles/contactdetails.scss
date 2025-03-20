@@ -22,8 +22,15 @@
         border: solid .1rem muted();
         margin-top: .6rem;
     }
-}
 
+ 
+}
+.map-bx{
+    margin-top: 3.2rem;
+    iframe{
+        border: none;
+    }
+}
 @media(min-width: 35em){
     .contact-flex{
         display: flex;

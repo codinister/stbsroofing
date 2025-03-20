@@ -14,7 +14,7 @@ const Footer = () => {
       <section className="footer-wrapper">
         <div className="container">
           <div className="about-box">
-            <h4>About Smart Roofing</h4>
+            <h4>About Yaks Roofing</h4>
             <p>
               We are one of the leading roofing sheet companies with the
               objective of providing a well-researched modern and aesthetic

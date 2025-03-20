@@ -86,19 +86,19 @@ const Home: NextPage = () => {
         <div className="container mob-container">
           <div>
             <Quote
-              text="What I really like about Smart Roofing Systems is I didn’t have to be present before estimates would be carried out and guess what I paid nothing. It was all done for free. They have excellent customer service and support. I am very glad I contacted them."
+              text="What I really like about Yaks Roofing Systems is I didn’t have to be present before estimates would be carried out and guess what I paid nothing. It was all done for free. They have excellent customer service and support. I am very glad I contacted them."
               name="Mrs. Theresa Tetteh"
             />
           </div>
           <div>
             <Quote
-              text="I was sceptical when I was introduced to Smart Roofing Systems especially when I had to contact them electronically. I got the shock of my life. They replied swiftly in just a matter of minutes. I received my quotation. They are what they say they are."
+              text="I was sceptical when I was introduced to Yaks Roofing Systems especially when I had to contact them electronically. I got the shock of my life. They replied swiftly in just a matter of minutes. I received my quotation. They are what they say they are."
               name="Mr. Ofori Atta"
             />
           </div>
           <div>
             <Quote
-              text="What I really like about Smart Roofing Systems is I didn’t have to be present before estimates would be carried out and guess what I paid nothing. It was all done for free. They have excellent customer service and support. I am very glad I contacted them."
+              text="What I really like about Yaks Roofing Systems is I didn’t have to be present before estimates would be carried out and guess what I paid nothing. It was all done for free. They have excellent customer service and support. I am very glad I contacted them."
               name="Dr. Douglas Sarpong"
             />
           </div>
@@ -112,7 +112,7 @@ const Home: NextPage = () => {
             <h3>Our Advantage</h3>
 
             <p>
-              Smart Roofing stands as a beacon of quality and expertise in the
+              Yaks Roofing stands as a beacon of quality and expertise in the
               roofing sheet manufacturing industry. With a rich history spanning
               over 20 years, we take pride in being a leading provider of
               high-quality roofing solutions for both commercial and residential

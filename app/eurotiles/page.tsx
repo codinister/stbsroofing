@@ -38,7 +38,7 @@ const Ibrsheets = () => {
         <Description
           title="GENERAL DESCRIPTION"
           img={images}
-          text="Euro Tiles in roofing sheets are often categorised not just by their material, but the way they are built and integrated together. For example, some people are looking for Spanish roofing styles, while others want flat roof tile styles or roman roof tile styles. In some geographies, a particular type of euro tiles in roofing sheets may be commonly used. Smart Roofing understands the market landscape and personal preferences of different consumers
+          text="Euro Tiles in roofing sheets are often categorised not just by their material, but the way they are built and integrated together. For example, some people are looking for Spanish roofing styles, while others want flat roof tile styles or roman roof tile styles. In some geographies, a particular type of euro tiles in roofing sheets may be commonly used. Yaks Roofing understands the market landscape and personal preferences of different consumers
 "
         />
       </section>
