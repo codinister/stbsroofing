@@ -18,7 +18,7 @@ const Freeestimate = () => {
           <h4>Free Estimation</h4>
           <h2>Request A Quote</h2>
           <div>
-            Want us to work on a project for you? West Coast is just a click
+            Want us to work on a project for you? Yaks Roofing is just a click
             away from you. Request a free estimate for your building.
           </div>
         

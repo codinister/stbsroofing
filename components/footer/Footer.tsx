@@ -98,17 +98,11 @@ const Footer = () => {
 
 
             <div className="flex gap-2">
-              <a href="https://web.facebook.com/sroofing22">
+              <a href="https://web.facebook.com/yaksroofingsystemsltd" target="_blacnk">
                  <SiFacebook />
               </a>
-              <a href="https://www.instagram.com/smartroofingghana/">
+              <a href="https://www.instagram.com/yaksroofingksi/" target="_blacnk">
               <SiInstagram />
-              </a>
-              <a href="https://www.twitter.com">
-              <BsTwitterX />
-              </a>
-              <a href="https://www.linkedin.com/in/smart-roofing-systems-66a61b241/">
-              <GrLinkedin />
               </a>
             </div>
           </div>
@@ -125,7 +119,7 @@ const Footer = () => {
       </section>
       <footer>
         <div>
-          Copyright © 2022 www.sroofingsystems.com | All rights reserved.
+          Copyright © 2025 www.yaksroofingsystem.com | All rights reserved.
         </div>
 
         <div>Developed by Emagweb Solutions</div>

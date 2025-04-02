@@ -98,7 +98,7 @@ const Home: NextPage = () => {
           </div>
           <div>
             <Quote
-              text="What I really like about Yaks Roofing Systems is I didn’t have to be present before estimates would be carried out and guess what I paid nothing. It was all done for free. They have excellent customer service and support. I am very glad I contacted them."
+              text="Yaks Roofing Systems impressed me with their hassle-free process—I didn’t even need to be there for the estimate, and best of all, it was completely free! Their customer service and support were outstanding, making the entire experience smooth and stress-free. I’m so glad I chose to work with them!"
               name="Dr. Douglas Sarpong"
             />
           </div>
