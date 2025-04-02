@@ -114,7 +114,7 @@ const Home: NextPage = () => {
             <p>
               Yaks Roofing stands as a beacon of quality and expertise in the
               roofing sheet manufacturing industry. With a rich history spanning
-              over 20 years, we take pride in being a leading provider of
+              over 6 years, we take pride in being a leading provider of
               high-quality roofing solutions for both commercial and residential
               purposes in Ghana.
             </p>

@@ -15,14 +15,14 @@ const Faq = () => {
           subheading="Answers To All Your Querries"
         />
       </div>
-      <section className="sectiontwo">
+      <section className="sectiontwo faq">
         <Sectiontitle
           mainheading="Frequently Asked Questions.​"
           subheading="What customers ask"
         />
 
         <div className="container">
-          <div className="faq">
+          <div >
             <h3>HOW LONG WILL A NEW ROOF LAST?</h3>
             <div>
               <ul>
@@ -60,10 +60,8 @@ const Faq = () => {
               </ul>
             </div>
           </div>
-        </div>
-
-        <div className="container">
-          <div className="faq">
+   
+          <div>
             <h3>
               WHAT PREPARATION DO I NEED TO MAKE INSIDE MY HOME BEFORE THE WORK
               BEGINS?
@@ -90,7 +88,7 @@ const Faq = () => {
         </div>
 
         <div className="container">
-          <div className="faq">
+          <div>
             <h3>
               WHAT HAPPENS WHEN THE ROOFING MATERIALS ARE DELIVERED TO MY HOMES?
             </h3>
@@ -108,10 +106,8 @@ const Faq = () => {
               </ul>
             </div>
           </div>
-        </div>
 
-        <div className="container">
-          <div className="faq">
+          <div>
             <h3>HOW WILL I KNOW IF I NEED A NEW ROOF?</h3>
             <div>
               <ul>
@@ -130,7 +126,7 @@ const Faq = () => {
         </div>
 
         <div className="container">
-          <div className="faq">
+          <div>
             <h3>
               WHAT WILL THE ESTIMATOR LOOK FOR WHEN INSPECTING THE ROOF OF MY
               HOME?
@@ -140,10 +136,8 @@ const Faq = () => {
               drainage systems, the roof rafters and trusses or woodwork.
             </div>
           </div>
-        </div>
 
-        <div className="container">
-          <div className="faq">
+          <div>
             <h3>ARE ESTIMATES FREE?</h3>
             <div>
               Estimates are free. Call to schedule an appointment with our
@@ -155,7 +149,7 @@ const Faq = () => {
         </div>
 
         <div className="container">
-          <div className="faq">
+          <div>
             <h3>CAN A NEW ROOF LOWER MY ENERGY CONSUMPTION?</h3>
             <div>
               A well ventilated and properly insulated space will help reduce
@@ -163,10 +157,8 @@ const Faq = () => {
               conditions enabling you to conserve energy.
             </div>
           </div>
-        </div>
 
-        <div className="container">
-          <div className="faq">
+          <div>
             <h3>DO I HAVE TO BE HOME DURING THE ROOFING PROJECT?</h3>
             <div>
               Not unless you choose to be there. Roofing is a noisy, messy
